@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobil Uyumlu Site</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #15202B; /* Arka plan rengi */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            width: 100%;
+            max-width: 500px;
+        }
+
+        .card {
+            background-color: #232E39;
+            border-radius: 10px;
+            width: 100%;
+            margin: 10px 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .card-content {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+
+        .card img {
+            width: 40%;
+            border-radius: 10px; /* Logolar için radius */
+        }
+
+        .bonus {
+            color: #18FF2F; /* Yeşil yazı rengi */
+            font-size: 18px; /* Yazı biraz büyütüldü */
+            font-weight: bold; /* Yazı kalınlaştırıldı */
+            background-color: #15202B;
+            padding: 10px;
+            border-radius: 5px;
+            width: 55%; /* Metin alanı genişliği */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .stars {
+            margin: 10px 0;
+            display: flex;
+            justify-content: center;
+            gap: 5px;
+        }
+
+        .stars i {
+            color: #F4C150; /* Yıldız rengi */
+            font-size: 30px; /* Yıldızlar büyütüldü */
+        }
+
+        .btn {
+            background-color: #F7720C; /* Giriş butonu rengi */
+            border: none;
+            color: white; /* Buton yazı rengi */
+            padding: 15px 0;
+            width: 100%;
+            font-size: 20px; /* Yazı boyutu büyütüldü */
+            font-weight: bold; /* Yazı kalınlaştırıldı */
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        .btn:hover {
+            background-color: #e6620a;
+        }
+
+        /* Mobil uyumlu */
+        @media only screen and (max-width: 600px) {
+            .card {
+                width: 100%;
+            }
+
+            .btn {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Birinci Kart -->
+        <div class="card">
+            <div class="card-content">
+                <img src="stake.png" alt="Stake">
+                <div class="bonus">STAKE 10 USDT BONUS AL</div>
+            </div>
+            <div class="stars">
+                <i>&#9733;</i><i>&#9733;</i><i>&#9733;</i><i>&#9733;</i><i>&#9733;</i> <!-- Yıldızlar -->
+            </div>
+            <a href="https://stake.com/?c=9dd9dbc553" class="btn">GİRİŞ YAP</a> <!-- Link eklendi -->
+        </div>
+        
+        <!-- İkinci Kart -->
+        <div class="card">
+            <div class="card-content">
+                <img src="slottica.png" alt="Slottica">
+                <div class="bonus">SLOTTICA %200 BONUS</div>
+            </div>
+            <div class="stars">
+                <i>&#9733;</i><i>&#9733;</i><i>&#9733;</i><i>&#9733;</i><i>&#9733;</i> <!-- Yıldızlar -->
+            </div>
+            <a href="https://gopartner.link/?a=205678&c=184089&s1=6028" class="btn">GİRİŞ YAP</a> <!-- Link eklendi -->
+        </div>
+
+        <!-- Üçüncü Kart -->
+        <div class="card">
+            <div class="card-content">
+                <img src="mos.png" alt="Mostbet">
+                <div class="bonus">MOSTBET 150.000 TL BONUS</div>
+            </div>
+            <div class="stars">
+                <i>&#9733;</i><i>&#9733;</i><i>&#9733;</i><i>&#9733;</i><i>&#9733;</i> <!-- Yıldızlar -->
+            </div>
+            <a href="https://t.ly/eAL_1" class="btn">GİRİŞ YAP</a> <!-- Link eklendi -->
+        </div>
+    </div>
+</body>
+</html>
